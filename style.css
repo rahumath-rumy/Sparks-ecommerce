@@ -1,0 +1,213 @@
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+        background-image: url("images/about.jpg");
+}
+#product-grid {
+	margin-top:10px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        
+}
+
+ .product{
+            text-align:center;
+            font-size:30px;
+            font-weight:bold; 
+            background-color: #666699;
+            opacity:0.9;
+            background-size:cover;
+            color:white;  
+            margin-top:10px;
+        }
+
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+}
+
+.product-item {
+	float: left;
+	background: #ffffff;
+	margin: 20px 20px 2px 4px;
+	border: black 2px solid;
+       
+}
+
+.product-image img {
+	
+	background-color: white;
+        width:150px;
+        height:150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.product-title {
+	margin-bottom: 5px;
+        text-align:center;
+        font-weight:700;
+        color:black;
+        font-size:15px;
+        background-color:lightgray;
+        font-family:Book Antiqua;
+        
+}
+
+.product-desc {
+    font-size:12px;
+    text-align:center;
+    margin-bottom: 5px;
+}
+
+.product-price {
+        margin-bottom: 10px;
+        font-family: canberra;
+        text-align:center;
+        font-weight:700;
+        background-color: #993333;
+        color:white;
+        margin-top:5px;
+        font-size: 20px;
+        margin-bottom: 5px;
+}
+
+.cart-action {
+	float: left;
+}
+
+.product-quantity {
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: black 2px solid;
+    float:left;
+    margin-bottom:5px;
+    margin-left:25px;
+    text-align:center;
+    width: 70px;
+    height: 40px;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+    margin-bottom:5px;
+}
+
+
+.btnAddAction {
+    padding: 5px 12px;
+    margin-left: 5px;
+    margin-right:30px;
+    background-color: seagreen;
+    border: #E0E0E0 1px solid;
+    color: black;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btnAddAction:hover  {
+  background-color: darkgreen;
+  color: black;
+}
+
+.heading {
+	color: Black;
+	overflow: auto;
+        font-size: 40px;
+        font-family:Lucida Handwriting;
+        text-align:center;
+        text-decoration:underline;
+        margin-bottom:10px;
+}
+
+#btnEmpty {
+	background-color: white;
+	border: red 2px solid;
+	padding: 10px 10px;
+	color: red;
+	float: right;
+	text-decoration: none;
+	border-radius: 15px;
+	margin: 10px 10px;
+}
+
+#shopping-cart {
+	margin: 50px;
+}
+
+
+#shopping-cart table {
+	width: 100%;
+	background-color: darkgrey;
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+        font-size:15px;
+}
+
+.tablecart th {
+	font-weight: bold;
+        font-family:canberra;
+        font-size:20px;
+        background-color: #eee;
+}
+
+}
+.emptycart {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+        font-size: 40px;
+       
+}
+
+.checkout {
+    float :right;
+    font-size:30px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.checkout a{
+    color:black;
+    font-family: helvetica ;
+}
+
+.checkout a:hover{
+ background-color: pink;
+ color: black;
+ padding:15px 15px 15px 15px;
+ cursor:pointer;
+}
+
+.continue {
+    float :left;
+    font-size:30px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.continue a{
+    color:black;
+    font-family: helvetica ;
+    
+}
+
+.continue a:hover{
+  background-color: pink;
+  color: black;
+  padding:15px 15px 15px 15px;
+  cursor:pointer;
+}
+
